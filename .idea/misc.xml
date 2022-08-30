@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2655" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/drawable/bg_radiobutton_left.xml" value="0.3625" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/drawable/bg_radiobutton_left_active.xml" value="0.3635" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/drawable/bg_radiobutton_left_desactive.xml" value="0.3635" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/drawable/bg_radiobutton_rigth.xml" value="0.24" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/drawable/bg_radiobutton_rigth_active.xml" value="0.3635" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/drawable/bg_radiobutton_rigth_desactive.xml" value="0.3635" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/drawable/bg_texview.xml" value="0.2655" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2655" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/drawable/ic_man.xml" value="0.24" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/drawable/ic_woman.xml" value="0.24" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/layout/activity_mas_info.xml" value="0.3625" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/ListaEnemigosJahel/app/src/main/res/layout/item.xml" value="0.2717391304347826" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

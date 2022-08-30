@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListaEnemigosJahel</string>
+    <string name="ofensa">Ofensa</string>
+    <string name="a_adir">añadir</string>
+    <string name="femenino">FEMENINO</string>
+    <string name="masculino">MASCULINO</string>
+    <string name="nombre">Nombre</string>
+    <string name="volver">volver</string>
+</resources>
