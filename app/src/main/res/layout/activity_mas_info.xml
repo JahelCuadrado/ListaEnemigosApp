@@ -24,11 +24,33 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/iv_enemigo"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                tools:src="@drawable/man"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@color/green_principal"
+                    android:translationY="55dp"
+                    android:translationX="39dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_enemigo"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    tools:src="@drawable/man"
+                    />
+
+            </RelativeLayout>
+
+
 
 
             <LinearLayout
@@ -41,7 +63,7 @@
                     android:id="@+id/nombre_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="28dp"
+                    android:layout_marginTop="55dp"
                     android:textSize="24sp"
                     android:textColor="@color/white"
                     tools:text="Nombre: Jahel"
