@@ -9,35 +9,74 @@
     android:orientation="vertical"
     tools:context=".MasInfo">
 
-    <TextView
-        android:id="@+id/nombre_tv"
-        android:layout_width="wrap_content"
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
-        android:layout_marginRight="60dp"
-        android:layout_marginTop="80dp"
-        android:textSize="24sp"
-        tools:text="Nombre: Jahel"/>
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="15dp"
+        android:outlineSpotShadowColor="@color/green_principal"
+        android:backgroundTint="@color/green_three">
 
-    <TextView
-        android:id="@+id/sexo_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
-        android:layout_marginRight="60dp"
-        android:layout_marginTop="20dp"
-        android:textSize="24sp"
-        tools:text="Sexo: Masculino"/>
 
-    <TextView
-        android:id="@+id/ofensa_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
-        android:layout_marginRight="60dp"
-        android:layout_marginTop="20dp"
-        android:textSize="24sp"
-        tools:text="Ofensa: Jahel"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_enemigo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                tools:src="@drawable/man"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:id="@+id/nombre_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+                    tools:text="Nombre: Jahel"
+                    android:fontFamily="@font/lobster_regular"/>
+
+                <TextView
+                    android:id="@+id/sexo_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+                    tools:text="Sexo: Masculino"
+                    android:fontFamily="@font/lobster_regular"/>
+
+                <TextView
+                    android:id="@+id/ofensa_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="40dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+                    tools:text="Ofensa: Jahel"
+                    android:fontFamily="@font/lobster_regular"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
 
     <Button
         android:layout_width="wrap_content"
